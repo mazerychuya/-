@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>雪梨在线</title>
+	<style>
+	  * {
+      padding: 0;
+      margin: 0;
+      line-height: 1;
+    }
+      a {
+      text-decoration: none;
+    }
+
+      li {
+      list-style: none;
+    }
+      .clear::after {
+      content: '';
+      height: 0;
+      display: block;
+      clear: both;
+    }
+      .header{
+      	padding-left:31.75px;
+      	background:#DDDDDD;
+      	border:0;
+      }
+      .container {
+      	width: 169.325px;
+        margin: 0 auto;
+    }
+      .logo{
+	    margin-top:25.5px;
+	    float:left;
+      }
+	  .sousuo{
+	  	border:1px solid #5599FF;
+	  	float:right;
+	  }
+	  a{
+	  	font-size:16.75;
+	  	padding-top:10.5;
+		margin:0 auto;
+	  }
+	  .jingpinkecheng{
+	  	padding-top:20.25px;
+	  	padding-bottom:19.5px;
+	  	margin-top:4.85px;
+	  	margin-bottom:9.75px;
+	  	border-left:2px solid #AAAAAA;
+	  }
+	  .jingpinkecheng li a {
+	  	font-size:13.5px;
+	  	color:black;
+	  	padding-left:10px;
+	  	padding-right:10px;
+	  	padding-bottom:18.5px;
+	  	padding-top:19.5px;
+	  	border-left:1px solid #DDDDDD;
+	  	text-align: center;
+	  }
+	  .jingpinkecheng a {
+	  	font-size:14px;
+	  	color:#00BBFF;
+	  }
+	  .jingpin2{
+		margin-top:9.75px;
+		padding-top:14px;
+		padding-bottom:18.5px;
+	  }
+	  .jingpin2 p {
+	  	padding-top:14px;
+		padding-bottom:18.5px;
+		font-size:19.5px;
+		float:left;
+	  }
+	  .jingpin2 span{
+	  	padding-top:20.25px;
+	  }
+	  .jingpin2 image{
+	  	width:8px;
+	  	height:25.45px;
+	  	float: left;
+	  }
+	  .niuren{
+	  	float:left;
+	  	margin-right:7px;
+	  }
+	  .niuren p{
+	  	font-size:16px;
+	  }
+	  .niuren span{
+ 		font-size:5px;
+	  }
+	</style> 
+</head>
+<body> 
+	<div class="header"><!--中间部分背景大盒子-->
+		<div><!--雪梨在线标题盒子 -->
+			<img src="f:/image/img/logo.png" alt="" class="logo">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">课程</a></li>
+				<li><a href="#">职业规划</a></li>
+			</ul>
+			<div class="sousuo">
+				<form action="">
+				<input type="text" name="sousuo" class="sousuo">
+				</form>
+				<a href="#">个人空间</a>
+			</div>
+		</div>
+		<div><!--图片定位 php基础视频 -->
+			<img src="f:/image/img/paimian.jpg" alt="">
+			<div><!-- 浮动纵向列表-->
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div><!--图片PHP基础视频-->
+				
+			</div>
+		</div>
+		<div>
+			<p>精品推荐</p>
+			<a href="#">查看全部</a>
+		</div>
+		<div class="jingpinkecheng"><!--精品课程-->
+			<img src="f:/image/img/jingpin.png" alt="">
+			<ul>
+				<li><a href="#">JQuery</a></li>
+				<li><a href="#">Spark</a></li>
+				<li><a href="#">MySQL</a></li>
+				<li><a href="#">JavaWeb</a></li>
+				<li><a href="#">MySQL</a></li>
+				<li><a href="#">JavaWeb</a></li>
+				<a href="#">修改兴趣</a>
+			</ul>
+		</div>
+		<div>
+			<p>精品推荐</p>
+			<a href="#">查看全部</a>
+		</div>
+		<div class="qingpin2"><!--精品课程下面的图与字-->
+			<ul class="clear">
+				<li>
+					<a href="#"><img src="f:/image/img/PHP5.0.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/GLIDE.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img scrc="f:/image/img/angular.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/HYBRID.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/HYBRID.png"></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/PHP5.0.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/GLIDE.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/angular.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/HYBRID.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/HYBRID.png"alt=""></a>
+				</li>
+			</ul>
+		</div>
+		<div><!--精选开发工程 灰色字体-->
+		</div>
+		<div class="jingpin2"><!--精选开发 图片-->
+			<ul class="clear">
+				<li>
+					<a href="#"><img src="f:/image/img/shujufenxi.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/unity.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/cocos2d.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/kami2.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="f:/image/img/H5.png"></a>
+				</li>
+			</ul>
+		</div>
+		<div><!--牛人-->
+			<div>
+				<div>
+					<ul>
+						<li>
+							<img src="f:/image/img/school.png" alt="">
+						</li>
+					</ul>
+				</div>
+				<div class="niuren">
+					<ul>
+						<li>
+							<img src="f:/image/img/1.png" alt="">
+							<p>闻老师<span>大数据
+							高级互联网软件工程师，曾担任某物流公司CRM开发团队TL，多年JAVAEE、大数据领域研发......</span></p>
+						</li>
+						<li>
+							<img src="f:/image/img/2.png" alt="">
+							<p>王老师<span>前端</span></p>
+							<span>高级软件架构师，全栈开发，多年大型项目管理经验。对WebComponents、Node.js......</span>
+						</li>
+						<li>
+							<img src="f:/image/img/3.png" alt="">
+							<p>江老师<sapn>前端</sapn></p>
+							<span>多年软件开发经验和教学经验，精通html，css，js，asp.net等编程语言和数据库系统......</span>			
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div><!--毕业季图片-->
+				
+			</div>
+			<div><!--人物介绍-->
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<div><!--底部-->
+		<div>
+			<img src=>
+		</div>
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+	</div>
+</body>
+</html>
